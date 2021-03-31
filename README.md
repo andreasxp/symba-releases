@@ -9,7 +9,7 @@ Consider trying out [Symba Designer](https://github.com/andreasxp/symba-gui) - a
 ## Usage
 Symba is a command-line application - you can run it from your terminal of choice. It has a command-line interface that you can use to customize your simulation:
 ```
-$ .\symba-x64-linux.exe --help
+$ ./symba-x64-linux --help
 A market simulator built in C++.
 Usage: symba [OPTIONS]
 
