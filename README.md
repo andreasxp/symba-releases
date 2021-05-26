@@ -2,7 +2,7 @@
 A market simulator utilizing a multi-agent reinforcement learning system.
 
 ## Installation
-Symba is a closed-source application - no source code is available. You can download a pre-built binary for your system from the [releases page](https://github.com/andreasxp/symba-releases/releases). The latest version is `1.0.0`.
+Symba is a closed-source application - no source code is available. You can download a pre-built binary for your system from the [releases page](https://github.com/andreasxp/symba-releases/releases). The latest version is `1.1.0`.
 
 Consider trying out [Symba Designer](https://github.com/andreasxp/symba-gui) - a GUI companion application for Symba.
 
@@ -17,6 +17,7 @@ Options:
   -h,--help                   Print this help message and exit
   -o,--output-dir TEXT:DIR REQUIRED
                               Output directory for simulation results
+  -j INT:NONNEGATIVE=24       Run N jobs in parallel (0 = no limit)
   -I,--n-agents INT:INT in [10 - 10000]=500
                               Number of agents in the simulation
   -J,--n-stocks INT:INT in [1 - 100]=1
